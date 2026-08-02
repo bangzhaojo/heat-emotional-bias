@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+DATA_PATH="${DATA_PATH:-/data}"
+RESULTS_PATH="${RESULTS_PATH:-/results}"
+RAW_RESULTS_PATH="${RAW_RESULTS_PATH:-$DATA_PATH/raw-results}"
+PYTHON_EXECUTABLE="${PYTHON_EXECUTABLE:-python}"
+
+"$PYTHON_EXECUTABLE" main.py \
+  --data-dir "$DATA_PATH" \
+  --raw-results-dir "$RAW_RESULTS_PATH" \
+  --results-dir "$RESULTS_PATH"

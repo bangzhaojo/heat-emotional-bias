@@ -1,0 +1,5 @@
+google-genai>=1.0,<2
+openai>=2.0,<3
+together>=2.0,<3
+tqdm>=4.67,<5
+

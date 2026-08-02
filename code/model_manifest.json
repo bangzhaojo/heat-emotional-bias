@@ -1,0 +1,27 @@
+{
+  "deepseek": {
+    "provider": "together",
+    "model_id": "deepseek-ai/DeepSeek-V3",
+    "display_name": "DeepSeek-V3"
+  },
+  "gemini": {
+    "provider": "gemini",
+    "model_id": "gemini-2.0-flash",
+    "display_name": "Gemini 2.0 Flash"
+  },
+  "gpt": {
+    "provider": "openai",
+    "model_id": "gpt-4o",
+    "display_name": "GPT-4o"
+  },
+  "llama": {
+    "provider": "together",
+    "model_id": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "display_name": "Llama 3.3 70B Instruct Turbo"
+  },
+  "qwen": {
+    "provider": "together",
+    "model_id": "Qwen/Qwen2.5-72B-Instruct-Turbo",
+    "display_name": "Qwen 2.5 72B Instruct Turbo"
+  }
+}
